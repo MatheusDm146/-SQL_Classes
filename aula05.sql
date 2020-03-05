@@ -32,3 +32,11 @@ nome VARCHAR(50) NOT NULL,
 email VARCHAR(50) NOT NULL,     
 dtnascto DATE
 );
+
+
+CREATE TABLE cursos (
+idcursos INT PRIMARY KEY,
+nome VARCHAR(50) NOT NULL, 
+duracao INT NOT NULL,     
+periodo VARCHAR (30)
+);
